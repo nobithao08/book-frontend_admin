@@ -1,5 +1,5 @@
 <template>
-    <Form class="row border border-2 border-dark rounded px-3 pb-3 col-8" @submit="submitBook" :validation-schema="contactFormSchema" style="background: #FFF0F5">
+    <Form class="row border border-2 border-dark rounded px-3 pb-3 col-8" @submit="submitBook" :validation-schema="contactFormSchema" style="background: #CFE5E4">
         <div class="col">
             <div class="form-group">
                 <label for="id" class="fw-bold">Mã sách:</label>
@@ -55,7 +55,7 @@
             </button>
         </div>
     </Form>
-    <div class="col ms-4 border border-2 border-dark rounded " style="background: #FFF0F5">
+    <div class="col ms-4 border border-2 border-dark rounded " style="background: #CFE5E4">
                 <h2 class="text-dark">Nhà xuất bản</h2>
                 
                 <table class="table">
